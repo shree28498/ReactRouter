@@ -1,0 +1,144 @@
+
+*{margin: 0; padding: 0;}
+
+.navbar{width: 100%; max-width: 1800px; display: flex; justify-content: space-between; align-items: center; background-color: rgb(184, 218, 218); 
+margin: 0 auto; margin-bottom: 2em; height: 60px; position: sticky; top: 0;z-index: 1;padding: 10px;}
+
+@media (max-width: 1080px) {
+    .navbar{display: flex; justify-content: space-between; align-items: center; flex-direction: row;}
+}
+
+@media (max-width: 850px) {
+    .navbar{padding: 6px 20px; height: auto;display: flex; justify-content: space-between; align-items: center; flex-direction: row; gap: 10px;}
+}
+
+@media (max-width: 700px) {
+    .navbar{display: flex; justify-content: space-between; align-items: center; flex-direction: row; gap: 5px;}
+}
+
+@media (max-width: 512px) {
+    .navbar{padding: 6px 5px; height: auto;}
+}
+
+/* .navbar{display: flex; justify-content: space-around; align-items: center; background-color: rgb(184, 218, 218); 
+    margin: 2em auto; height: 60px;} */
+
+.nav-links {margin: 0 0 0 4em;}
+
+.contactus{display: flex; justify-content: space-evenly; margin-right: 2em;}
+
+@media (max-width: 1200px) {
+    .nav-links {margin: 0 0 0 1em;}
+    .contactus{margin: 0;}
+}
+
+@media (max-width: 850px) {
+    .nav-links {display: flex; justify-content: space-between; width: 100%; margin: 0;}
+    .contactus{width: 100%; margin-right: 0em; display: flex; justify-content: space-between; }
+}
+
+@media (max-width: 700px) {
+    .nav-links {display: flex; justify-content: space-between; width: 100%; margin: 0;}
+    .contactus{margin-right: 0em;}
+}
+
+/* @media (max-width: 1372px) {
+    .nav-links {margin: 0 10em 0 5em;}
+} */
+
+/* .nav-links {margin: 0 10em 0 0;} */
+
+.links{ margin: 0 2em 0 0; text-decoration: none; color: black; font-family: Montserrat, sans-serif; font-size: 18px; 
+line-height: 16px; font-weight: 600;}
+
+@media (max-width: 1200px) {
+    .links{ margin: 0 15px 0 2px;  font-size: 14px; font-weight: 600;}
+}
+
+@media (max-width: 850px) {
+    .links{ margin: 0 10px 0 2px;  font-size: 14px; font-weight: 600;}
+}
+
+@media (max-width: 512px) {
+    .links{ margin: 0 0px 0 0px;  font-size: 11px; font-weight: 600;}
+}
+
+@media (max-width: 310px) {
+    .links{ margin: 0 0px 0 0px;  font-size: 9px; font-weight: 500;}
+}
+
+
+.tel, .mail{ width: 18px; margin-right: 3px;}
+
+@media (max-width: 1200px) {
+    .tel, .mail{ width: 14px; margin-right: 3px;}
+}
+
+.homeComp{ padding: 5em;}
+
+@media (max-width: 1080px) {
+    .homeComp{padding: 3em 7em;}
+}
+
+@media (max-width: 767px) {
+    .homeComp{padding: 3em 3em;}
+}
+
+@media (max-width: 512px) {
+    .homeComp{padding: 30px 20px;}
+}
+
+/* @media (max-width: 576px) {
+    .comp{padding: 20px;}
+} */
+
+.title{ font-family: 'Barlow Condensed', sans-serif; font-size: 84px; line-height: 85px; font-weight: 400; 
+color: #fff; margin: 0 0 30px 0;}
+
+@media (max-width: 1080px) {
+    .title{font-size: 58px; line-height: 66px;margin: 0 0 20px 0;}
+}
+
+@media (max-width: 767px) {
+    .title{font-size: 45px; line-height: 50px;margin: 0 0 20px 0;}
+}
+
+@media (max-width: 512px) {
+    .title{font-size: 40px; line-height: 45px;margin: 0 0 20px 0;}
+}
+
+@media (max-width: 414px) {
+    .title{font-size: 25px; line-height: 32px;margin: 0 0 15px 0;}
+}
+
+.title-text{ width: 100%; font-family: Montserrat, sans-serif; font-size: 16px; line-height: 24px; 
+font-weight: 500; text-align: left; color: #fff; margin: 0 0 30px 0; }
+
+@media (max-width: 512px) {
+    .title-text{font-size: 14px; line-height: 20px;}
+}
+
+@media (max-width: 414px) {
+    .title-text{font-size: 12px; line-height: 16px; margin-bottom: 25px;}
+}
+
+.Button{ padding: 1em; border-radius: 5px; background-color: white; border: 0.5px solid gray; font-family: Montserrat, sans-serif; 
+font-size: 16px; line-height: 20px; font-weight: 600; cursor: pointer;}
+@media (max-width: 1024px) {
+    .Button{padding: 10px; font-size: 14px; border-radius: 3px;}
+}
+@media (max-width: 512px) {
+    .Button{padding: 10px; border-radius: 3px;}
+}
+
+.Button:hover {background-color: #ff651f; color: white;}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.links:hover{transition: 300ms ease-in-out; color: #fff;}
+
+.links:active{color: #fff;}

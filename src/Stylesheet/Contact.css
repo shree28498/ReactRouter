@@ -1,0 +1,26 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.contact{width: 100%;}
+
+.contact .contactformdiv{width: 60%; max-width: 960px; box-sizing: border-box; margin: 0 auto;}
+
+@media (max-width: 850px) {
+    .contact .contactformdiv{width: 80%; box-sizing: border-box; margin: 0 auto;}
+}
+@media (max-width: 700px) {
+    .contact .contactformdiv{width: 100%; padding: 0px 12px; box-sizing: border-box; margin: 0 auto;}
+}
+
+.contact .contactformdiv form {padding: 20px 40px; background-color: #fff; border-radius: 10px;}
+@media (max-width: 512px) {
+    .contact .contactformdiv form {padding: 20px 20px; background-color: #fff; border-radius: 10px;}
+}
+
+.contact .contactformdiv form .inputBox {padding-bottom: 30px;}
+
+.contact .contactformdiv form .inputBox .form-control{padding: 7px 12px;}
+
+.contactformdiv p{font-size: 16px; font-weight: 600;}
+
+.fg{background-color: #72cbeb;}
